@@ -1,0 +1,50 @@
+2024-08-04 14:07:17.369 +05:45 [ERR] DomainLayer.Exceptions.CustomInvalidOperationException: Invalid Email ID
+   at ServicesLayer.ServiceImplementations.EmailService.SendEmailAsync(String toEmail, String subject, String htmlContent) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\EmailService.cs:line 41
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 87
+2024-08-04 14:08:37.606 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-04 14:08:37.667 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 76
+2024-08-04 14:46:40.920 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-04 14:46:41.154 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 76
+2024-08-04 15:44:41.364 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-04 15:44:41.839 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 76
+2024-08-04 16:29:25.187 +05:45 [ERR] DomainLayer.Exceptions.CustomInvalidOperationException: Invalid Email ID
+   at ServicesLayer.ServiceImplementations.EmailService.SendEmailAsync(String toEmail, String subject, String htmlContent) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\EmailService.cs:line 48
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 87
+2024-08-04 16:29:58.330 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-04 16:29:58.391 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 76
+2024-08-04 16:53:22.351 +05:45 [ERR] Email verification status: invalid
+2024-08-04 16:53:26.477 +05:45 [ERR] Email does not exist: 1234w@gmail.com
+2024-08-04 16:57:09.628 +05:45 [ERR] DomainLayer.Exceptions.CustomInvalidOperationException: All fields are required.
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 74
+2024-08-04 16:57:34.035 +05:45 [ERR] DomainLayer.Exceptions.CustomInvalidOperationException: All fields are required.
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 74
+2024-08-04 16:57:55.254 +05:45 [ERR] DomainLayer.Exceptions.CustomInvalidOperationException: All fields are required.
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 74
+2024-08-04 17:03:13.722 +05:45 [ERR] Email verification status: null
+2024-08-04 17:03:17.573 +05:45 [ERR] Email does not exist: string36589@gmail.com
+2024-08-04 17:12:42.266 +05:45 [ERR] Email verification status: null
+2024-08-04 17:12:42.412 +05:45 [ERR] Email does not exist: artsrazes@gmail.com
+2024-08-04 17:18:38.391 +05:45 [ERR] Email verification status: null
+2024-08-04 17:18:38.514 +05:45 [ERR] Email does not exist: string@gmail.com
+2024-08-04 17:42:21.067 +05:45 [ERR] Failed to verify email. Status code: "Unauthorized"
+2024-08-04 17:42:25.237 +05:45 [ERR] Email does not exist: string@gmail.com
+2024-08-04 17:51:55.208 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-04 17:57:34.769 +05:45 [ERR] Failed to verify email. Status code: "Unauthorized"
+2024-08-04 17:57:34.887 +05:45 [ERR] Email does not exist: string12545@gmail.com
+2024-08-04 18:21:23.149 +05:45 [ERR] Failed to verify email. Status code: "MethodNotAllowed"
+2024-08-04 18:21:23.315 +05:45 [ERR] Email does not exist: stri@gmail.com
+2024-08-04 19:00:37.808 +05:45 [ERR] Email verification status: invalid
+2024-08-04 19:00:38.258 +05:45 [ERR] Email does not exist: aas122123213@gmail.com

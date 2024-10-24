@@ -1,0 +1,4 @@
+2024-08-07 11:23:53.865 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-08-07 11:23:54.000 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 64
+2024-08-07 11:23:54.450 +05:45 [ERR] User authentication failed
