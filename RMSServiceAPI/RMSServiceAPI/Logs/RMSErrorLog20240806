@@ -1,0 +1,43 @@
+2024-08-06 00:32:54.821 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 82
+2024-08-06 23:12:51.100 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-06 23:12:51.275 +05:45 [ERR] User authentication failed
+2024-08-06 23:13:08.780 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-06 23:13:08.875 +05:45 [ERR] User authentication failed
+2024-08-06 23:23:33.041 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-06 23:23:33.198 +05:45 [ERR] User authentication failed
+2024-08-06 23:23:53.989 +05:45 [ERR] Unexpected error during login
+2024-08-06 23:23:58.809 +05:45 [ERR] Unexpected error during login
+2024-08-06 23:24:40.653 +05:45 [ERR] Unexpected error during login
+2024-08-06 23:25:04.807 +05:45 [ERR] Unexpected error during login
+2024-08-06 23:25:06.422 +05:45 [ERR] Unexpected error during login
+2024-08-06 23:25:11.044 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-06 23:25:11.120 +05:45 [ERR] User authentication failed
+2024-08-06 23:25:38.168 +05:45 [ERR] User authentication failed
+2024-08-06 23:26:18.694 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-06 23:26:18.839 +05:45 [ERR] User authentication failed
+2024-08-06 23:31:30.075 +05:45 [ERR] An error occurred while verifying the email.
+DomainLayer.Exceptions.NotFoundException: User not found with that token.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.VerifyEmailAsync(String emailToken) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 148
+   at RMSServiceAPI.Controllers.AuthenticationController.VerifyEmail(String id) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 160
+2024-08-06 23:40:49.874 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO)
+2024-08-06 23:40:49.994 +05:45 [ERR] User authentication failed
+2024-08-06 23:40:59.422 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-08-06 23:40:59.463 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO)
+2024-08-06 23:40:59.559 +05:45 [ERR] User authentication failed
+2024-08-06 23:41:29.774 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-08-06 23:41:29.812 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO)
+2024-08-06 23:41:29.901 +05:45 [ERR] User authentication failed
+2024-08-06 23:41:36.675 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-08-06 23:41:36.717 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO)
+2024-08-06 23:41:36.806 +05:45 [ERR] User authentication failed
+2024-08-06 23:41:45.479 +05:45 [ERR] User authentication failed
