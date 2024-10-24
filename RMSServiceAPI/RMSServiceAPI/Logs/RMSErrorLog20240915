@@ -1,0 +1,7 @@
+2024-09-15 21:55:39.953 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-09-15 21:55:40.430 +05:45 [ERR] User authentication failed
+2024-09-15 21:58:27.637 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-09-15 21:58:28.074 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 64
+2024-09-15 21:58:28.276 +05:45 [ERR] User authentication failed

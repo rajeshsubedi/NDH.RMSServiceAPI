@@ -1,0 +1,62 @@
+2024-08-03 00:01:56.799 +05:45 [ERR] User not found or incorrect password for username: string
+2024-08-03 00:01:56.926 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginModelDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 00:01:57.053 +05:45 [ERR] User authentication failed
+2024-08-03 00:17:49.430 +05:45 [ERR] User not found or incorrect password for username: string
+2024-08-03 00:17:49.539 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 00:17:49.658 +05:45 [ERR] User authentication failed
+2024-08-03 00:19:36.133 +05:45 [ERR] User not found or incorrect password for username: string
+2024-08-03 00:19:36.246 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 00:19:36.367 +05:45 [ERR] User authentication failed
+2024-08-03 00:25:43.874 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this PhoneNumber and Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-03 00:25:43.928 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this PhoneNumber and Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 59
+2024-08-03 18:21:23.030 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-03 18:21:23.478 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 59
+2024-08-03 18:31:35.226 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-03 18:31:35.957 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 67
+2024-08-03 18:33:17.579 +05:45 [ERR] User not found or incorrect password for username: sunil@gmail.com
+2024-08-03 18:33:17.652 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 18:33:17.813 +05:45 [ERR] User authentication failed
+2024-08-03 18:34:25.240 +05:45 [ERR] User not found or incorrect password for username: sunil@gmail.com
+2024-08-03 18:34:25.306 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 18:34:25.429 +05:45 [ERR] User authentication failed
+2024-08-03 18:34:38.788 +05:45 [ERR] User not found or incorrect password for username: sunill@gmail.com
+2024-08-03 18:34:38.858 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 18:34:38.996 +05:45 [ERR] User authentication failed
+2024-08-03 19:10:28.000 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+2024-08-03 19:10:28.902 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AddOrRegisterNewUserDetailAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 78
+   at RMSServiceAPI.Controllers.AuthenticationController.Register(UserRegistrationRequestDTO model) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\RMSServiceAPI\Controllers\AuthenticationController.cs:line 67
+2024-08-03 19:16:06.554 +05:45 [ERR] User not found or incorrect password for username: Suman@gmail.com
+2024-08-03 19:16:06.745 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 19:16:06.923 +05:45 [ERR] User authentication failed
+2024-08-03 19:16:21.123 +05:45 [ERR] User not found or incorrect password for username: Suman@gmaill.com
+2024-08-03 19:16:21.236 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 19:16:21.450 +05:45 [ERR] User authentication failed
+2024-08-03 19:16:44.000 +05:45 [ERR] User not found or incorrect password for username: Suman@gmaill.com
+2024-08-03 19:16:44.166 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 19:16:44.431 +05:45 [ERR] User authentication failed
+2024-08-03 19:17:05.458 +05:45 [ERR] Unexpected error during authentication for username: 
+2024-08-03 19:17:12.669 +05:45 [ERR] Unexpected error during login
+2024-08-03 19:50:34.008 +05:45 [ERR] User not found or incorrect password for username: string
+2024-08-03 19:50:34.194 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Heights.RMSSoftware\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 58
+2024-08-03 19:50:34.356 +05:45 [ERR] User authentication failed

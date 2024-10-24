@@ -1,0 +1,26 @@
+2024-08-26 10:00:37.109 +05:45 [ERR] Categoty name already exists
+2024-08-26 10:00:37.242 +05:45 [ERR] Categoty name already exists
+2024-08-26 10:09:16.332 +05:45 [ERR] Failed to send email. Status code: "Unauthorized", Response: {"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}
+2024-08-26 10:09:16.404 +05:45 [ERR] Failed to send email.
+System.InvalidOperationException: Failed to send email. Status code: Unauthorized
+   at ServicesLayer.ServiceImplementations.EmailService.SendEmailAsync(String toEmail, String subject, String htmlContent) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\EmailService.cs:line 70
+2024-08-26 10:10:20.026 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 86
+2024-08-26 10:16:45.591 +05:45 [ERR] Failed to send email. Status code: "Unauthorized", Response: {"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}
+2024-08-26 10:16:48.507 +05:45 [ERR] Failed to send email.
+System.InvalidOperationException: Failed to send email. Status code: Unauthorized
+   at ServicesLayer.ServiceImplementations.EmailService.SendEmailAsync(String toEmail, String subject, String htmlContent) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\EmailService.cs:line 70
+2024-08-26 10:52:33.774 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-26 10:52:33.912 +05:45 [ERR] User authentication failed
+2024-08-26 23:25:18.877 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-08-26 23:25:19.324 +05:45 [ERR] User authentication failed
+2024-08-26 23:25:56.144 +05:45 [ERR] User not found or incorrect password for username: artsrazes@gmail.com
+2024-08-26 23:25:56.173 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong UserId or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 64
+2024-08-26 23:25:56.231 +05:45 [ERR] User authentication failed
+2024-08-26 23:31:20.378 +05:45 [ERR] Food Item name already exists
+2024-08-26 23:31:20.448 +05:45 [ERR] Item name already exists
+2024-08-26 23:38:21.332 +05:45 [ERR] An error occurred while placing the order. {ex.Message}
+2024-08-26 23:45:52.052 +05:45 [ERR] An error occurred while placing the order. {ex.Message}

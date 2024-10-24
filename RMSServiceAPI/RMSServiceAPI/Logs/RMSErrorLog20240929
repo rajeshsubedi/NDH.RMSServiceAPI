@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+2024-09-29 13:03:54.011 +05:45 [ERR] DomainLayer.Exceptions.UserUnauthenticatedException: Wrong Email or Password
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.AuthenticateLogin(LoginRequestDTO loginModelDTO) in F:\Nepal.Digital.Height.RMSSoftware\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 41
+2024-09-29 13:03:54.336 +05:45 [ERR] User authentication failed
+=======
+2024-09-29 15:26:58.197 +05:45 [ERR] DomainLayer.Exceptions.DuplicateRecordException: User Already Exists with this Email.
+   at ServicesLayer.ServiceImplementations.UserAuthenticationService.StoreUnregisterdUserForVerificationAsync(UserRegistrationRequestDTO userRegistrationDetailsDTO) in E:\NDHPROJECT\NDH.RMSService\RMS.API\RMSServiceAPI\ServicesLayer\ServiceImplementations\UserAuthenticationService.cs:line 86
+>>>>>>> 64ba94c634aa10750770086c417573f34723b969
