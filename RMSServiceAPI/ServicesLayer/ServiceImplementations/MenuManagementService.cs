@@ -58,10 +58,10 @@ namespace ServicesLayer.ServiceImplementations
         }
 
 
-        public async Task<List<FoodCategoryResponseDTO>> GetAllFoodCategoriesAsync()
+        public async Task<MenuCategoryDetails> GetAllFoodItemsWithCategoryId(Guid categoryId)
         {
             // Fetch categories from repository
-            var categories = await _menuManagementRepo.GetAllFoodCategoriesAsync();
+            var categories = await _menuManagementRepo.GetAllFoodItemsByCategoryId(categoryId);
 
             // Perform any additional business logic if required
             return categories;
@@ -93,9 +93,9 @@ namespace ServicesLayer.ServiceImplementations
 
             return categoryDtos;
         }
-        public async Task<List<FoodCategoryResponseDTO>> GetAllCategoriesWithFoodItemsAsync()
+        public async Task<List<FoodCategoryResponseDTO>> GetAllCategoriesAndFoodItemsAsync()
         {
-            var categories = await _menuManagementRepo.GetAllCategoriesWithFoodItemsAsync();
+            var categories = await _menuManagementRepo.GetAllCategoriesAndFoodItemsAsync();
 
             // Manual mapping from MenuCategoryDetails to FoodCategoryResponseDTO
             //var categoryDTOs = categories.Select(category => new FoodCategoryResponseDTO

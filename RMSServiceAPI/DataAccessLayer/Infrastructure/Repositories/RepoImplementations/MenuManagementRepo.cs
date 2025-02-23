@@ -36,22 +36,11 @@ namespace DataAccessLayer.Infrastructure.Repositories.RepoImplementations
                 .Where(c => c.Name.ToLower() == name.ToLower())
                 .FirstOrDefaultAsync();
         }
-        public async Task<List<FoodCategoryResponseDTO>> GetAllFoodCategoriesAsync()
+
+        public async Task<MenuCategoryDetails> GetAllFoodItemsByCategoryId(Guid categoryId)
         {
-            // Fetch all menu categories from the database
-            var categories = await _context.MenuCategories.ToListAsync();
-
-            // Manual mapping from MenuCategoryDetails to FoodCategoryResponseDTO
-            var categoryDTOs = categories.Select(category => new FoodCategoryResponseDTO
-            {
-                CategoryId = category.CategoryId,
-                Name = category.Name,
-                Description = category.Description,
-                ImageData = category.ImageData,
-                ImageUrl = category.ImageUrl
-            }).ToList();
-
-            return categoryDTOs;
+            return await _context.MenuCategories
+                 .FirstOrDefaultAsync(c => c.CategoryId == categoryId);
         }
 
         public async Task<List<MenuCategoryDetails>> GetFoodCategoriesByIdOrNameAsync(Guid? id, string name)
@@ -72,7 +61,7 @@ namespace DataAccessLayer.Infrastructure.Repositories.RepoImplementations
 
             return await query.ToListAsync();
         }
-        public async Task<List<FoodCategoryResponseDTO>> GetAllCategoriesWithFoodItemsAsync()
+        public async Task<List<FoodCategoryResponseDTO>> GetAllCategoriesAndFoodItemsAsync()
         {
             // Fetch all categories and include the related food items for each category
             var categories = await _context.MenuCategories
@@ -108,7 +97,6 @@ namespace DataAccessLayer.Infrastructure.Repositories.RepoImplementations
 
             return categoryDTOs;
         }
-
 
         public async Task AddFoodItemAsync(MenuItemDetails foodItem)
         {

@@ -13,9 +13,9 @@ namespace DataAccessLayer.Infrastructure.Repositories.RepoInterfaces
         Task AddFoodCategoryAsync(MenuCategoryDetails category);
         Task<MenuCategoryDetails> GetCategoryByIdAsync(Guid categoryId);
         Task<MenuCategoryDetails?> GetCategoryByNameAsync(string name);
-        Task<List<FoodCategoryResponseDTO>> GetAllFoodCategoriesAsync();
+        Task<MenuCategoryDetails> GetAllFoodItemsByCategoryId(Guid categoryId);
         Task<List<MenuCategoryDetails>> GetFoodCategoriesByIdOrNameAsync(Guid? id, string name);
-        Task<List<FoodCategoryResponseDTO>> GetAllCategoriesWithFoodItemsAsync();
+        Task<List<FoodCategoryResponseDTO>> GetAllCategoriesAndFoodItemsAsync();
         Task AddFoodItemAsync(MenuItemDetails foodItem);
         Task<MenuItemDetails?> GetFoodItemByNameAsync(string name);
         Task<MenuItemDetails> GetFoodItemByIdAsync(Guid foodItemId);
