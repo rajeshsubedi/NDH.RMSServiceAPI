@@ -26,7 +26,7 @@ namespace RMSServiceAPI.Extensions
             var clientUrl = configuration.GetSection("ApplicationBaseURLS:RMSClientUrl").Value;
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigin", policy =>
+                options.AddPolicy(name : "AllowSpecificOrigin", policy =>
                 {
                     policy.WithOrigins(clientUrl) // Replace with your frontend URL if different
                           .AllowAnyHeader()

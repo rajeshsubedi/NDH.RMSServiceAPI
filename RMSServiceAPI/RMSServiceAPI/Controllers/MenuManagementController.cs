@@ -69,23 +69,23 @@ namespace RMSServiceAPI.Controllers
         }
 
         // GET: api/food-category/all
-        [HttpGet("get-all-categories-only")]
-        public async Task<BaseResponse<List<FoodCategoryResponseDTO>>> GetAllFoodCategories()
+        [HttpGet("get-all-fooditems-withCategoryId/{id}")]
+        public async Task<BaseResponse<MenuCategoryDetails>> GetAllFoodItemsWithCategoryId(Guid id)
         {
             try
             {
                 // Fetch all food categories from the service
-                var categories = await _menuManagementService.GetAllFoodCategoriesAsync();
+                var categories = await _menuManagementService.GetAllFoodItemsWithCategoryId(id);
 
                 // Check if categories are empty
-                if (categories == null || categories.Count == 0)
+                if (categories == null )
                 {
                     throw new NotFoundException("No food categories found."
                     );
                 }
 
                 // Return the success response with food categories
-                return new BaseResponse<List<FoodCategoryResponseDTO>>(
+                return new BaseResponse<MenuCategoryDetails>(
                     categories,
                     HttpStatusCode.OK,
                     true,
@@ -129,12 +129,12 @@ namespace RMSServiceAPI.Controllers
             }
         }
 
-        [HttpGet("all-categories-with-fooditems")]
-        public async Task<BaseResponse<List<FoodCategoryResponseDTO>>> GetAllCategoriesWithFoodItems()
+        [HttpGet("all-categories-and-fooditems")]
+        public async Task<BaseResponse<List<FoodCategoryResponseDTO>>> GetAllCategoriesAndFoodItemsAsync()
         {
             try
             {
-                var categoriesWithItems = await _menuManagementService.GetAllCategoriesWithFoodItemsAsync();
+                var categoriesWithItems = await _menuManagementService.GetAllCategoriesAndFoodItemsAsync();
 
                 if (categoriesWithItems == null || categoriesWithItems.Count == 0)
                 {
